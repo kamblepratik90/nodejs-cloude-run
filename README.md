@@ -23,3 +23,12 @@ COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build
 ## Deploy to Google Cloud Run
 
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
+https://hello-world-1-nodejs-dh4hwox2yq-el.a.run.app/
+
+..................
+docker compose up
+
+docker tag a244b39dd441 gcr.io/nodejs-343313/node-server
+
+docker push gcr.io/nodejs-343313/node-server ---> will be availble in registry
